@@ -12,7 +12,6 @@ All versions are done via the main.js file.
 ## Exercise 1 :
 
 Hide the "text" div.
-[Exercise](Exercises_1/index.html)
 
 ## Exercise 2:
 
