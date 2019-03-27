@@ -1,0 +1,39 @@
+body{
+    background-color: #b2b2ff;
+    width: 98vw;
+    height: 96vh;
+}
+
+.container{
+    width: 30%;
+    height: 30%;
+    background-color: #fff;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bttns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.bttn_placement{
+    margin: 15px;
+}
+
+#rect{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 10px;
+    background-color: #b2b2ff;
+}
