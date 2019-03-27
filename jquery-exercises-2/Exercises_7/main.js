@@ -31,11 +31,12 @@
     /* On hover: Display the URL of links in a tooltip when hovering over links */
 
     $('a').hover(function() {
-        $(this).css('cursor','pointer').attr('title', $(this).attr('href'));
+        $(this).css('cursor','pointer').attr('title', event.target.href);
     })
     
     /* On click: add "Chapter 1:" before the 1st title h2 and "Chapter 2:" before the 2nd title h2 */
-    $('#instructions li:last-child').click(function(){
-        $('h2:first').prepend('Chapter 1:')
-        $('h2:nth-child(5)').prepend('Chapter 2:')
-    })
+    
+    $('#instructions li:last-child').one('click', function() {
+        $('h2:eq(0)').prepend('Chapter 1: ');
+        $('h2:eq(1)').prepend('Chapter 2: ');
+        });
