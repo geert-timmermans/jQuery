@@ -1,4 +1,4 @@
-let computerChoice = function() {
+let computer = function() {
     let random = Math.floor(Math.random() * 3);
     if (random === 0) {
       return  'rock';
@@ -43,17 +43,17 @@ let compare = function(me, opponent) {
     }
   };
 
-$('#scissors').on('click', function(){
-    let result = compare('scissors', computerChoice());
+$('#scissors').click(function(){
+    let result = compare('scissors', computer());
     $('#result').html(result);
   });
   
-  $('#rock').on('click', function(){
-    let result = compare('rock', computerChoice());
+  $('#rock').click(function(){
+    let result = compare('rock', computer());
     $('#result').html(result);
   });
   
-  $('#paper').on('click', function(){
-    let result = compare('paper', computerChoice());
+  $('#paper').click(function(){
+    let result = compare('paper', computer());
     $('#result').html(result);
   });
