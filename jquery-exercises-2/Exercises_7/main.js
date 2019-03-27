@@ -30,11 +30,9 @@
     
     /* On hover: Display the URL of links in a tooltip when hovering over links */
 
-    /* $('a').hover(function() {
-        $(this).css('cursor','pointer').attr('title', 'This is a hover text.');
-    }, function() {
-        $(this).css('cursor','auto');
-    }) */
+    $('a').hover(function() {
+        $(this).css('cursor','pointer').attr('title', $(this).attr('href'));
+    })
     
     /* On click: add "Chapter 1:" before the 1st title h2 and "Chapter 2:" before the 2nd title h2 */
     $('#instructions li:last-child').click(function(){
