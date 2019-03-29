@@ -1,0 +1,20 @@
+body{
+    background-color: #eee5de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+}
+
+.container{
+    background-color: #fff5ee;
+    padding: 1em;
+}
+
+form, input{
+    margin: 1em;
+}
+
+button{
+    margin-left: 1em;
+}

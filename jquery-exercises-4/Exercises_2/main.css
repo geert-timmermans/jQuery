@@ -1,0 +1,43 @@
+body{
+    background-color: #c6e2ff;
+    height: 96vh;
+}
+
+h3{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#reset{
+    position: fixed;
+    display: none;
+    top: 73%;
+    left: 45%;
+    width: 100px;
+    height: 35px;
+    background-color: #9bcd9b;
+}
+
+.wrapper{
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #eee9e9;
+    padding: 1em;
+}
+
+.container2{
+    background-color: #cdc9c9;
+}
+
+input, select{
+    margin: 1em;
+}
+
+button{
+    margin-left: 1em;
+}

@@ -8,9 +8,37 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="wrapper">
+        <div class="container">
+            <form id="form">
+                Salary:<br>
+                <input type="text" id="salary" name="salary" placeholder="ex: 1800">
+                <br>
+                Gender:<br>
+                <select id="gender">
+                    <option value="Man">Man</option>
+                    <option value="Woman">Woman</option>
+                </select>
+                <br>
+                Children:<br>
+                <select id="children">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4 or more</option>
+                    </select>
+                <br><br>
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+        
+        <div class="container2"></div>
+    </div>
+    
+    <button id="reset">Reset</button>
     
 
-    
+
     <script src="jquery-2.2.4.js"></script>
     <script src="main.js"></script>
 </body>
