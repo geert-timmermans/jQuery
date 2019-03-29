@@ -1,6 +1,7 @@
 First exercises using jQuery  
 start-date: 26-03-2019  
 end-date:
+[Exercises](https://geert-timmermans.github.io/jQuery/)
 
 # jQuery
 
