@@ -1,11 +1,3 @@
-let salary = 0;
-let gender = null;
-let children = 0;
-
-let woman = 0.02;
-let threeChildren = 0.01;
-let fourChildren = woman;
-
 let expenses = 0.18;
 let insurance = 0.07;
 let contributions = 0.05;
@@ -13,8 +5,9 @@ let totalCosts = expenses + insurance + contributions;
 
 
 function netto(){
-    sum = salary - ((salary/100) * totalCosts);
+    sum = salary - salary * totalCosts;
 }
+
 
 function discount(){
     if (children === 3){
@@ -39,7 +32,7 @@ $('#submit').click(function(e){
     e.preventDefault();
     salary = $('#salary').val()
     gender = $('#gender').val()
-    children = $('#children').val()
+    children = Number($('#children').val())
     $('.container').hide()
     $('#reset').show()
     discount();
